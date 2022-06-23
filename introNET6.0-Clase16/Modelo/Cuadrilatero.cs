@@ -16,16 +16,14 @@ namespace introNET6._0_Clase16.Modelo
         private int _valorY2;
         private int _valorY3;
         private int _valorY4;
-
-
-        public int ValorX1 { get { return _valorX1;  } set { _valorX1 = value; } }
-        public int ValorX2 { get { return _valorX2;  } set { _valorX2 = value; } }
-        public int ValorX3 { get { return _valorX3;  } set { _valorX3 = value; } }
-        public int ValorX4 { get { return _valorX4;  } set { _valorX4 = value; } }
-        public int ValorY1 { get { return _valorY1;  } set { _valorY1 = value; } }
-        public int ValorY2 { get { return _valorY2;  } set { _valorY2 = value; } }
-        public int ValorY3 { get { return _valorY3;  } set { _valorY3 = value; } }
-        public int ValorY4 { get { return _valorY4;  } set { _valorY4 = value; } }
+        protected int ValorX1 { get { return _valorX1;  } set { _valorX1 = value; } }
+        protected int ValorX2 { get { return _valorX2;  } set { _valorX2 = value; } }
+        protected int ValorX3 { get { return _valorX3;  } set { _valorX3 = value; } }
+        protected int ValorX4 { get { return _valorX4;  } set { _valorX4 = value; } }
+        protected int ValorY1 { get { return _valorY1;  } set { _valorY1 = value; } }
+        protected int ValorY2 { get { return _valorY2;  } set { _valorY2 = value; } }
+        protected int ValorY3 { get { return _valorY3;  } set { _valorY3 = value; } }
+        protected int ValorY4 { get { return _valorY4;  } set { _valorY4 = value; } }
 
         public Cuadrilatero(int valorX1, int valorY1, int valorX2, int valorY2, int valorX3, int valorY3, int valorX4, int valorY4)
         {

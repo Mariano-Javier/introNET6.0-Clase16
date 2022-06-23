@@ -10,7 +10,6 @@ namespace introNET6._0_Clase16.Modelo
     {
         public Rectangulo(int valorX1, int valorY1, int valorX2, int valorY2, int valorX3, int valorY3, int valorX4, int valorY4) : base(valorX1, valorY1, valorX2, valorY2, valorX3, valorY3, valorX4, valorY4) { }
 
-
         public override int CalcularArea()
         {
             int resultado;
